@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="beans.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>All Cupcakes</h1>
+
+    <div>
+        {% for cupcake in cupcakes %}
+    <h3>{{ cupcake["name"] }}</h3>
+    <h4>Flavor: {{ cupcake["flavor"] }}</h4>
+    <h4>Frosting: {{ cupcake["frosting"] }}</h4>
+    <h4><b>Price: ${{ cupcake["price"] }}</b></h4>
+{% endfor %} 
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+size,name,price,flavor,frosting,sprinkles,filling
+regular,Stars and Stripes,,Vanilla,Vanilla,"['Red', 'White', 'Blue']",Chocolate
+mini,Oreo,,Chocolate,Cookies and Cream,['Oreo pieces'],
+regular,Red Velvet,,Red Velvet,Cream Cheese,[],
